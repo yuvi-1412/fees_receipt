@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css' integrity='sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l' crossorigin='anonymous'/>
+    <title>Reciept</title>
+</head>
+<body class="container mb-5">
+    <style>
+        td{
+            padding:5px !important;
+        }
+    </style>
+    <div>
+
+        <!-- logo and header -->
+        <div class="container d-flex align-items-center logo_&_header" style="justify-content:center;">
+            <div class="m-3">
+                <img width="100px" src="https://pbs.twimg.com/profile_images/982502564385112065/ZrD_2xsk_400x400.jpg" alt="logo"/>
+            </div>
+            <div>
+                <h4>DEVI AHILYA VISHWAVIDYALAYA, INDORE</h4>
+                <h4>INSTITUTE OF ENGINEERING & TECHNOLOGY</h4>
+                <h4>Khandwa Road, Indore Phone No. :2366800, 2361117, 2361116</h4>
+            </div>
+        </div>
+        
+        <!-- first four rows -->
+        <table class="table table-bordered mb-0 border-bottom-0">
+            <tbody>
+                <tr>
+                    <td>Rno.</td>
+                    <td> </td> 
+                    <!-- auto generate -->
+                    <td> Reciept Date : <input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Recieved from Shri/Smt.Ku.</td>
+                    <td colspan="2">Gaurav Rathor (DE29371)</td>                    
+                </tr>
+                <tr>
+                    <td>A sum of Rs.</td>
+                    <td>78501=00</td>
+                    <td>Rupees Seventy eight thousand five hundred one only</td>
+                </tr>                
+                <tr>
+                    <td colspan="3">
+                        As per details given below:
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!-- course row -->
+        <table class="table table-bordered mb-0 border-bottom-0">
+            <tbody>
+                <tr>
+                    <td>Course/Year/Branch :</td>
+                    <td>BE</td>
+                    <td><input type="text" ></td>
+                    <td>ELEX & TELECOM</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!-- particulars table -->
+        <table class="table table-bordered mb-0">
+            <tbody>
+                <tr>
+                    <td style="width:60px;" class="">Sno.</td>
+                    <td class="">Particulars</td>
+                    <td class="">Amount</td>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Academic Fees</td>
+                    <td>40000</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Development Fees</td>
+                    <td>32000</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Miscellaneous Fees</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>University Fees</td>
+                    <td>6211</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Caution Money</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Registration Fees</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>University Enrollment Fees</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td>Late Fees</td>
+                    <td>290</td>
+                </tr>
+                <tr>
+                    <td>9.</td>
+                    <td>Excess Amount</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10.</td>
+                    <td>Exam Fees</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-right">Total</td>
+                    <td>78501</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!-- Bank details -->
+        <table class="table table-bordered mb-0">
+            <tbody>
+                <tr>
+                    <td class="">Details of Postal Order/Bank Draft</td>
+                    <td class="">Bank Name/UTR/NEFT NO. :UPI228909836236</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!-- DD Number row -->
+        <div class="d-flex row_seven mb-5 border border-top-0">
+            <div class="border-right d-flex" style="flex:0.3;">
+                <div class="border-right " style="padding:12px;">DDNO.</div>
+                <div style="padding:12px;">ONLINE</div>
+            </div>
+            <div class="border-right d-flex" style="flex:0.3;">
+                <div class="border-right " style="padding:12px;">DD Date:</div>
+                <div style="padding:12px;">10/10/2022</div>
+            </div>
+            <div style="padding:12px; flex:0.5">Issuing Branch</div>
+        </div>
+        
+        <!-- Signature div -->
+        <div class="pt-5 mb-5">
+            <h5 class="text-right text-uppercase">Signature of the reciever</h5>
+        </div>
+        
+        <!-- Print button -->
+        <div style="text-align:center;">
+            <button type="button" class="btn btn-primary">Print</button>
+        </div>
+
+    </div>    
+</body>
+</html>
